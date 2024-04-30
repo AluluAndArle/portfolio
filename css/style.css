@@ -122,3 +122,51 @@ footer {
     display: flex;
     justify-content: center;
 }
+
+.barreProgresseVide {
+    background-color: darkgrey;
+    border-radius: 20px;
+    width: 400px;
+    height: 30px;
+    padding: 4px;
+    margin: 10px 0 0 0;
+}
+
+.barrehtml {
+    background-color: rgb(14, 27, 206);
+    width: 80%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.barrecss {
+    background-color: rgb(206, 14, 14);
+    width: 60%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.barrephp {
+    background-color: rgb(125, 15, 185);
+    width: 60%;
+    height: 100%;
+    border-radius: 20px;
+}
+.barremisc {
+    background-color: rgb(32, 220, 15);
+    width: 60%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+#subtitle {
+    font-size: 1em;
+    text-align: center;
+    justify-content: center;
+}
+
+
+#skills {
+    font-size: 40px;
+    margin: 5px 0px 15px 0px;
+}

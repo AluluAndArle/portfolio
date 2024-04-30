@@ -46,18 +46,27 @@
         </div>
         <h1 id="category">Skills</h1>
         <div class="container">
-            <div>
-                Premier Div <br>
-                <br>
-                [Image]
-            </div>
-            <div>
-                À propos <br>
-                <br>
-                Je m'appelle Benjamin ! Certains me connaissent sous le nom de DiZ ou Alulu... <br>
-                J'ai commencé à apprendre le code de manière sérieuse depuis quelque temps. <br>
-                J'aime juste le code, c'est un monde où je peux m'amuser; montrer ma créativité <br>
-                mais aussi me surpasser et apprendre de mes erreurs de manière quotidienne.
+            <div> 
+                <div>
+                    <div class="barreProgresseVide">
+                        <div class="barrehtml"></div>
+                    </div>
+                </div>
+                <div class="barreProgresseVide">
+                        <div class="barrecss"></div>
+                    </div>
+                <div class="barreProgresseVide">
+                        <div class="barrephp"></div>
+                    </div>
+                <div class="barreProgresseVide">
+                        <div class="barremisc"></div>
+                    </div>
+                </div>                    
+            <div id="skills">
+                HTML <br>
+                CSS <br>
+                PHP <br>
+                MISC. 
             </div>
         </div>
         <h1 id="category">Contact</h1>
@@ -77,5 +86,6 @@ window.addEventListener("scroll", function(){
     header.classList.toggle("sticky", window.scrollY > 0);
 })
 </script>
+
 </body>
 </html>
