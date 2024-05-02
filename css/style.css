@@ -119,6 +119,13 @@ footer {
 }
 
 .container3 {
+    background-color: gray;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    opacity: 0.7;
+    border-radius: 15px;
+    height: 20%;
     display: flex;
     justify-content: center;
 }
@@ -170,3 +177,4 @@ footer {
     font-size: 40px;
     margin: 5px 0px 15px 0px;
 }
+

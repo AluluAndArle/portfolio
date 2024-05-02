@@ -72,7 +72,17 @@
         <h1 id="category">Contact</h1>
         <div class="container3">
             <div>
-                <span id="prepa"> [En préparation] </span>
+                <h2>Me contacter</h2>
+            </div>
+            <div>
+                <form action="sendmsg.php" method="post">
+                    Email    <input type="email" name="email" value=""> <br>
+                    Subject <input type="text" name="subject" value=""> <br>
+                    Message <input type="text" name="message" value=""> <br>
+                    <button type="submit" name="send">Envoyer</button>
+                </form>
+
+
             </div>
         </div>
     </main>
