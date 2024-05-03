@@ -15,7 +15,7 @@
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true ;
         $mail->Username = 'imperialys3@gmail.com'; //Votre adresse gmail
-        $mail->Password = 'fjqvckftpzywmspb'; //Votre app password(mot de passe)
+        $mail->Password = ''; //Votre app password(mot de passe)
         $mail->SMTPSecure = 'ssl';
         $mail->Port = 465;
 
